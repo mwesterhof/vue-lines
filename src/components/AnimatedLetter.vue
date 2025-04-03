@@ -1,25 +1,10 @@
 <script setup>
-  import { ref, computed } from 'vue'
+  defineProps(['letter', 'active'])
   import '../assets/letters.css'
-
-  const active = ref(true)
-  const letters = ref(['A', 'B', 'C', 'D', 'E']);
-  const index = ref(0)
-  const letterClass = computed(() => {
-    return letters.value[index.value]
-  })
-
-  setInterval(() => {
-    index.value += 1
-    if (index.value >= 5) {
-      index.value -= 5;
-    }
-  }, 1000)
 </script>
 
 <template>
-  <p>{{ letterClass }}</p>
-  <div @click="active = !active" class="letter active" :class="letterClass">
+  <div class="letter" :class="[letter, {active: active}]">
     <div class="line line1"></div>
     <div class="line line2"></div>
     <div class="line line3"></div>
@@ -35,7 +20,7 @@
 
 <style scoped>
   .letter {
-    --size: 10rem;
+    --size: 7rem;
     --color: #FFFFFF;
     --color-inactive: #FFFFFF08;
     --color-background: #8888FF;
@@ -47,6 +32,7 @@
     width: var(--size);
     height: var(--size);
     position: relative;
+    float: left;
   }
 
   .letter .line {

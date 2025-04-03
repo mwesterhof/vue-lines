@@ -1,0 +1,47 @@
+.letter.G.active .line1 {
+  rotate: -90deg;
+  width: calc(var(--size) / 1.9);
+  top: calc(var(--size) / 2.1);
+  left: calc(var(--size) / -4.9);
+}
+.letter.G.active .line2 {
+  width: calc(var(--size) / 1.9);
+  left: calc(var(--size) / 4);
+}
+.letter.G.active .line3 {
+  rotate: 135deg;
+  width: calc(var(--size) / 3);
+  top: calc(var(--size) / 9);
+}
+.letter.G.active .line4 {
+  width: calc(var(--size) / 2.1);
+  left: calc(var(--size) / 4.5);
+  top: calc(var(--size) * 0.9375);
+}
+.letter.G.active .line5 {
+  rotate: -135deg;
+  width: calc(var(--size) / 2.9);
+  top: calc(var(--size) / 1.2);
+}
+.letter.G.active .line6 {
+  rotate: 90deg;
+  width: calc(var(--size) / 3);
+  top: calc(var(--size) / 1.7);
+  left: calc(var(--size) / 1.35);
+}
+.letter.G.active .line7 {
+  rotate: -45deg;
+  width: calc(var(--size) / 3);
+  top: calc(var(--size) / 1.2);
+  left: calc(var(--size) / 1.6);
+}
+.letter.G.active .line8 {
+  width: calc(var(--size) / 3);
+  top: calc(var(--size) / 2.2);
+  left: calc(var(--size) / 1.7);
+}
+.letter.G.active .line9,
+.letter.G.active .line10 {
+  top: calc(var(--size) * 0.9375);
+  background-color: var(--color-inactive);
+}
