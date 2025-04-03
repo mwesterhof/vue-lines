@@ -1,0 +1,40 @@
+.letter.B.active .line1 {
+  top: calc(var(--size) / 2.15);
+  rotate: 270deg;
+  left: calc(var(--size) / -3.15);
+}
+.letter.B.active .line2 {
+  left: calc(var(--size) / 6.8);
+  width: calc(var(--size) / 2);
+}
+.letter.B.active .line3 {
+  rotate: 180deg;
+  left: calc(var(--size) / 6.8);
+  top: calc(var(--size) / 2.55);
+  width: calc(var(--size) / 1.5);
+}
+.letter.B.active .line4 {
+  rotate: -180deg;
+  left: calc(var(--size) / 6.8);
+  width: calc(var(--size) / 1.45);
+  top: calc(var(--size) * 0.9375);
+}
+.letter.B.active .line5 {
+  rotate: 90deg;
+  left: calc(var(--size) / 2.60);
+  top: calc(var(--size) / 5);
+  width: calc(var(--size) / 2.2);
+}
+.letter.B.active .line6 {
+  rotate: -90deg;
+  top: calc(var(--size) / 1.5);
+  left: calc(var(--size) / 2.0);
+  width: calc(var(--size) / 1.65);
+}
+.letter.B.active .line7,
+.letter.B.active .line8,
+.letter.B.active .line9,
+.letter.B.active .line10 {
+  top: calc(var(--size) * 0.9375);
+  background-color: var(--color-inactive);
+}

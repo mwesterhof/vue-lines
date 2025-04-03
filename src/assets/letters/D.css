@@ -1,0 +1,39 @@
+.letter.D.active .line1 {
+  top: calc(var(--size) / 2.15);
+  rotate: 270deg;
+  left: calc(var(--size) / -3.15);
+}
+.letter.D.active .line2 {
+  left: calc(var(--size) / 6.8);
+  width: calc(var(--size) / 2);
+}
+.letter.D.active .line3 {
+  left: calc(var(--size) / 6.8);
+  width: calc(var(--size) / 2);
+  top: calc(var(--size) * 0.9375);
+}
+.letter.D.active .line4 {
+  rotate: 90deg;
+  width: calc(var(--size) / 1.55);
+  top: calc(var(--size) / 2.1);
+  left: calc(var(--size) / 1.95);
+}
+.letter.D.active .line5 {
+  rotate: 45deg;
+  width: calc(var(--size) / 3);
+  left: calc(var(--size) / 1.75);
+  top: calc(var(--size) / 11);
+}
+.letter.D.active .line6 {
+  rotate: -45deg;
+  width: calc(var(--size) / 3);
+  left: calc(var(--size) / 1.75);
+  top: calc(var(--size) / 1.2);
+}
+.letter.D.active .line7,
+.letter.D.active .line8,
+.letter.D.active .line9,
+.letter.D.active .line10 {
+  top: calc(var(--size) * 0.9375);
+  background-color: var(--color-inactive);
+}
