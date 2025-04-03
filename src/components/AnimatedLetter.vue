@@ -20,7 +20,7 @@
 
 <style scoped>
   .letter {
-    --size: 7rem;
+    --size: 2rem;
     --color: #FFFFFF;
     --color-inactive: #FFFFFF08;
     --color-background: #8888FF;
