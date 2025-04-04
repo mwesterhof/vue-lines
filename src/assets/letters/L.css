@@ -1,0 +1,19 @@
+.letter.L.active .line1 {
+  top: 47%;
+  rotate: 270deg;
+  left: -32%;
+}
+.letter.L.active .line2 {
+  width: 70%;
+  left: 15%;
+}
+.letter.L.active .line3,
+.letter.L.active .line4,
+.letter.L.active .line5,
+.letter.L.active .line6,
+.letter.L.active .line7,
+.letter.L.active .line8,
+.letter.L.active .line9,
+.letter.L.active .line10 {
+  background-color: var(--color-inactive);
+}

@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div class="letter" :class="[letter, {active: active}]">
+  <div class="letter" :class="[letter, {active: active, inactive: !active}]">
     <div class="line line1"></div>
     <div class="line line2"></div>
     <div class="line line3"></div>
@@ -20,7 +20,7 @@
 
 <style scoped>
   .letter {
-    --size: 2rem;
+    --size: 3rem;
     --color: #FFFFFF;
     --color-inactive: #FFFFFF08;
     --color-background: #8888FF;
@@ -38,13 +38,17 @@
   .letter .line {
     background-color: var(--color);
     width: var(--size);
-    height: calc(var(--size) / 15);
+    height: 6.7%;
     position: absolute;
-    top: 0;
+    top: 94%;
     left: 0;
     rotate: 0deg;
     transition: all var(--time);
     border-radius: calc(var(--size) / 10);
+  }
+
+  .letter.inactive .line {
+    border-radius: 0;
   }
 
   /*

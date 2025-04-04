@@ -1,0 +1,26 @@
+.letter.K.active .line1 {
+  top: 47%;
+  rotate: 270deg;
+  left: -32%;
+}
+.letter.K.active .line2 {
+    rotate: -50deg;
+    top: 30%;
+    left: 1%;
+    width: 85%;
+}
+.letter.K.active .line3 {
+    rotate: 50deg;
+    top: 70%;
+    left: 20%;
+    width: 65%;
+}
+.letter.K.active .line4,
+.letter.K.active .line5,
+.letter.K.active .line6,
+.letter.K.active .line7,
+.letter.K.active .line8,
+.letter.K.active .line9,
+.letter.K.active .line10 {
+  background-color: var(--color-inactive);
+}

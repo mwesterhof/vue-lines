@@ -3,18 +3,19 @@
   import { ref } from 'vue'
 
   const lettersActive = ref(true);
-  const value = ref('DEADBEEF')
+  const value = ref('ABCDEFGHIJKLM  ')
 
   setInterval(() => {
     //lettersActive.value = !lettersActive.value
-  }, 2000)
+    value.value = value.value.slice(1) + value.value[0]
+  }, 1000)
 </script>
 
 <template>
-  <p>home: {{ value }}</p>
-  <input v-model="value" />
   <button @click="lettersActive = false" v-if="lettersActive">deactivate</button>
   <button @click="lettersActive = true" v-else>activate</button>
+  <br />
+  <br />
   <br />
   <AnimatedString :string="value" :active="lettersActive" />
 </template>

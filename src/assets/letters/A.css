@@ -1,17 +1,17 @@
 .letter.A.active .line1 {
-  top: calc(var(--size) / 2);
+  top: 50%;
   rotate: -65deg;
-  left: calc(var(--size) / -5);
+  left: -20%;
 }
 .letter.A.active .line2 {
-  top: calc(var(--size) / 2);
+  top: 50%;
   rotate: 65deg;
-  left: calc(var(--size) / 5);
+  left: 20%;
 }
 .letter.A.active .line3 {
-  top: calc(var(--size) / 2);
-  left: calc(var(--size) * .27);;
-  width: calc(var(--size) / 2.2);
+  top: 50%;
+  left: 27%;
+  width: 45%;
 }
 .letter.A.active .line4,
 .letter.A.active .line5,
@@ -20,6 +20,5 @@
 .letter.A.active .line8,
 .letter.A.active .line9,
 .letter.A.active .line10 {
-  top: calc(var(--size) * 0.9375);
   background-color: var(--color-inactive);
 }

@@ -1,0 +1,30 @@
+.letter.M.active .line1 {
+  top: 47%;
+  rotate: 270deg;
+  left: -32%;
+}
+.letter.M.active .line2 {
+  top: 47%;
+  rotate: -270deg;
+  left: 32%;
+}
+.letter.M.active .line3 {
+  rotate: -125deg;
+  left: 3%;
+  top: 22%;
+  width: 60%;
+}
+.letter.M.active .line4 {
+  rotate: 125deg;
+  left: 36%;
+  top: 22%;
+  width: 60%;
+}
+.letter.M.active .line5,
+.letter.M.active .line6,
+.letter.M.active .line7,
+.letter.M.active .line8,
+.letter.M.active .line9,
+.letter.M.active .line10 {
+  background-color: var(--color-inactive);
+}
