@@ -1,0 +1,39 @@
+.letter.P.active .line1 {
+  top: 47%;
+  rotate: 270deg;
+  left: -34%;
+}
+.letter.P.active .line2 {
+  width: 50%;
+  left: 12%;
+  top: 0%;
+}
+.letter.P.active .line3 {
+  width: 50%;
+  left: 12%;
+  top: 50%;
+}
+.letter.P.active .line4 {
+  rotate: -270deg;
+  width: 25%;
+  top: 25%;
+  left: 63%;
+}
+.letter.P.active .line5 {
+  rotate: 45deg;
+  width: 25%;
+  top: 7%;
+  left: 55%;
+}
+.letter.P.active .line6 {
+  rotate: -45deg;
+  width: 25%;
+  top: 43%;
+  left: 55%;
+}
+.letter.P.active .line7,
+.letter.P.active .line8,
+.letter.P.active .line9,
+.letter.P.active .line10 {
+  background-color: var(--color-inactive);
+}

@@ -1,0 +1,35 @@
+.letter.U.active .line1 {
+  top: 38%;
+  rotate: 270deg;
+  left: -28%;
+  width: 80%;
+}
+.letter.U.active .line2 {
+  top: 38%;
+  rotate: -270deg;
+  left: 48%;
+  width: 80%;
+}
+.letter.U.active .line3 {
+  width: 50%;
+  left: 25%;
+}
+.letter.U.active .line4 {
+  rotate: 45deg;
+  width: 30%;
+  top: 85%;
+  left: 5%;
+}
+.letter.U.active .line5 {
+  rotate: -45deg;
+  width: 30%;
+  top: 85%;
+  left: 65%;
+}
+.letter.U.active .line6,
+.letter.U.active .line7,
+.letter.U.active .line8,
+.letter.U.active .line9,
+.letter.U.active .line10 {
+  background-color: var(--color-inactive);
+}

@@ -20,11 +20,11 @@
 
 <style scoped>
   .letter {
-    --size: 3rem;
+    --size: 2rem;
     --color: #FFFFFF;
     --color-inactive: #FFFFFF08;
     --color-background: #8888FF;
-    --time: .5s;
+    --time: 1s;
   }
 
   .letter {

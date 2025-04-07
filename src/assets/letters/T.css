@@ -1,0 +1,20 @@
+.letter.T.active .line1 {
+  width: 80%;
+  left: 10%;
+  top: 0%;
+}
+.letter.T.active .line2 {
+  rotate: 90deg;
+  top: 47%;
+  width: 99%;
+}
+.letter.T.active .line3,
+.letter.T.active .line4,
+.letter.T.active .line5,
+.letter.T.active .line6,
+.letter.T.active .line7,
+.letter.T.active .line8,
+.letter.T.active .line9,
+.letter.T.active .line10 {
+  background-color: var(--color-inactive);
+}

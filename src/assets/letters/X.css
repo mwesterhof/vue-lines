@@ -1,0 +1,22 @@
+.letter.X.active .line1 {
+  top: 47%;
+  rotate: 230deg;
+  left: -12%;
+  width: 120%;
+}
+.letter.X.active .line2 {
+  top: 47%;
+  rotate: -230deg;
+  left: -12%;
+  width: 120%;
+}
+.letter.X.active .line3,
+.letter.X.active .line4,
+.letter.X.active .line5,
+.letter.X.active .line6,
+.letter.X.active .line7,
+.letter.X.active .line8,
+.letter.X.active .line9,
+.letter.X.active .line10 {
+  background-color: var(--color-inactive);
+}

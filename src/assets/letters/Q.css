@@ -1,0 +1,54 @@
+.letter.Q.active .line1 {
+  top: 47%;
+  rotate: 270deg;
+  left: -10%;
+  width: 50%;
+}
+.letter.Q.active .line2 {
+  top: 47%;
+  rotate: -270deg;
+  left: 60%;
+  width: 50%;
+}
+.letter.Q.active .line3 {
+  width: 40%;
+  left: 30%;
+  top: 0%;
+}
+.letter.Q.active .line4 {
+  width: 40%;
+  left: 30%;
+}
+.letter.Q.active .line5 {
+  rotate: -55deg;
+  top: 12%;
+  left: 8%;
+  width: 32%;
+}
+.letter.Q.active .line6 {
+  rotate: 55deg;
+  top: 12%;
+  left: 60%;
+  width: 32%;
+}
+.letter.Q.active .line7 {
+  rotate: 55deg;
+  top: 82%;
+  left: 8%;
+  width: 32%;
+}
+.letter.Q.active .line8 {
+  rotate: -55deg;
+  top: 82%;
+  left: 60%;
+  width: 32%;
+}
+.letter.Q.active .line9 {
+  rotate: 45deg;
+  width: 33%;
+  top: 85%;
+  left: 60%;
+}
+.letter.Q.active .line10 {
+  background-color: var(--color-inactive);
+}

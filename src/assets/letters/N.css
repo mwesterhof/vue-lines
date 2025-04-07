@@ -1,0 +1,25 @@
+.letter.N.active .line1 {
+  top: 47%;
+  rotate: 270deg;
+  left: -34%;
+}
+.letter.N.active .line2 {
+  top: 47%;
+  rotate: -270deg;
+  left: 34%;
+}
+.letter.N.active .line3 {
+  rotate: -125deg;
+  left: -10%;
+  top: 47%;
+  width: 120%;
+}
+.letter.N.active .line4,
+.letter.N.active .line5,
+.letter.N.active .line6,
+.letter.N.active .line7,
+.letter.N.active .line8,
+.letter.N.active .line9,
+.letter.N.active .line10 {
+  background-color: var(--color-inactive);
+}
